@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #first {
+            height: 100px;
+            width: 100px;
+            background-color: mediumvioletred;
+        }
+
+        #second {
+            height: 100px;
+            width: 100px;
+            background-color: palevioletred;
+        }
+
+        #ilk {
+            position: relative;
+        }
+        #first {
+            position: absolute;
+            z-index: -1;
+        }
+        img {
+            width: 400px;
+        }
+        #second {
+            position: absolute;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ilk">
+        <div id="first"></div>
+        <img src="tembel.jpg" alt="Tembel hayvan">
+        <div id="second"></div>
+    </div>
+</body>
+
+</html>
