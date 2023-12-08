@@ -62,9 +62,10 @@ li {
 #kaplama {
     width: 100%;
     background: url("https://storage.acerapps.io/app-1232/public/20221004/n_8964_m.png") no-repeat;
+    position: absolute;
+    top: -19;
     display: flex;
     align-items: center;
-    position: relative;
     justify-content: center;
     height: 90vh;
     text-align: center;
@@ -96,7 +97,7 @@ li {
     padding: 16px 20px;
     display: inline-block;
     border: 1px solid white;
-    background-color: rgba(70,215,252,.2);
+    background-color: rgba(70, 215, 252, .2);
     color: white;
 }
 
