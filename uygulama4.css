@@ -1,0 +1,42 @@
+
+#first {
+    height: 117px;
+    width: 117px;
+    background-color: mediumvioletred;
+}
+
+#second {
+    height: 117px;
+    width: 117px;
+    background-color: palevioletred;
+}
+
+#ilk {
+    height: 400px;
+    position: relative;
+}
+
+#first {
+    position: absolute;
+    z-index: -2;
+}
+
+#img {
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    left: 15px;
+    top: 15px;
+}
+
+img {
+    width: 400px;
+    height: 266px;
+}
+
+#second {
+    position: absolute;
+    z-index: -1;
+    left: 317px;
+    top: 182px;
+}

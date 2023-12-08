@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+div {
+    margin: 0 auto;
+    width: 400px;
+}
+
+img {
+    width: 295px;
+    border-radius: 15px;
+}
+
+#first {
+    position: relative;
+}
+
+#margin {
+    margin-left: 65px;
+}
+
+.pink {
+    color: palevioletred;
+}
+
+p {
+    color: lightgray;
+}
+
+.fa-user {
+    margin-top: 10px;
+}
+
+#inline {
+    display: inline-block;
+    width: auto;
+    margin-left: 70px;
+}
+
+i {
+    margin: 0 5px;
+}
