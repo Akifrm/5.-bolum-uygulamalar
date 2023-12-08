@@ -15,15 +15,11 @@
     padding: 0 15px;
 }
 
-img {
+#resim0 {
     width: 250px;
     height: 90px;
     margin-top: -5px;
     margin-left: 57px;
-}
-
-#resim {
-    width: 250px;
 }
 
 #header2 {
@@ -50,7 +46,7 @@ a:hover {
 }
 
 ul {
-    margin-left: 153px;
+    margin-left: 100px;
 }
 
 li {
@@ -58,6 +54,52 @@ li {
     display: inline;
     float: left;
 }
+
 .text {
     padding-left: 5px;
+}
+
+#kaplama {
+    width: 100vw;
+    background: url("https://storage.acerapps.io/app-1232/public/20221004/n_8964_m.png") no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+}
+
+
+#icerik {
+    background: rgba(6, 45, 150, .8);
+    width: 762px;
+    margin: 0 20px;
+    padding: 20px 4vw;
+}
+
+#title {
+    font-size: 3.5rem;
+    color: white;
+}
+
+#description {
+    font-size: 1.1rem;
+    padding: 5px;
+    font-style: italic;
+    color: white;
+}
+
+#link {
+    width: 180px;
+    height: 53px;
+    padding: 20px 20px;
+    display: inline-block;
+    border: 1px solid white;
+    background-color: rgba(70,215,252,.2);
+    color: white;
+}
+
+#link:hover {
+    background-color: blue;
 }
